@@ -1,0 +1,47 @@
+name: EliteEnchants
+version: 1.0.0
+main: com.tobiassteely.eliteenchants.EliteEnchants
+authors:
+  - Alontrle
+description: A lightweight powerful enchantment system.
+softdepend:
+  - "PlaceHolderAPI"
+depend:
+  - "PrisonMines"
+  - "WorldGuard"
+commands:
+  eliteenchants:
+    usage: /<command>
+    description: "The admin command for Elite Enchants."
+    permission: eliteenchants.admin
+    aliases: [ee, te, ta]
+  tickets:
+    usage: /<command>
+    description: "Check your ticket balance."
+    permission: eliteenchants.balance
+    aliases: [ticket]
+  enchant:
+    usage: /<command>
+    description: "Upgrade your tools."
+    permission: eliteenchants.enchant
+    aliases: [enchantment, upgrade]
+  withdraw:
+    usage: /<command>
+    description: "Withdraw your tickets."
+    permission: eliteenchants.withdraw
+  ticketpay:
+    usage: /<command>
+    description: "Pay with tickets."
+    permission: eliteenchants.ticketpay
+  redeem:
+    usage: /<command>
+    description: "Redeem your tickets."
+    permission: eliteenchants.redeem
+  convertxp:
+    usage: /<command>
+    description: "Convert your xp and tickets."
+    permission: eliteenchants.convert
+  disenchant:
+    usage: /<command>
+    description: "Disenchant your tools."
+    permission: eliteenchants.disenchant
